@@ -1,2 +1,23 @@
 .header {color: white; background-color: deepskyblue; border-radius: 10px; text-align: center;
 padding: 20px}
+
+
+.input-block{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.botton{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+
+
+.down-block{
+    padding-top: 15px;
+}

@@ -8,9 +8,28 @@
 <body>
     <h1 class = "header">Регистрация</h1>
     <form action="/register" method="post">
-        <input name="username" type="text">
-        <input name="password" type="password">
-        <input name="sumbit" value="Зарегестрироваться">
+    <div class="input-block">
+        <span>Пользователь</span>
+        <div>
+            <input name="username" type="text">
+        </div>
+    </div>
+    <div class="input-block">
+        <span>Пароль</span>
+        <div>
+            <input name="password" type="password">
+        </div>
+    </div>
+    <div class="input-block">
+        <span>Номер</span>
+        <div>
+            <input name="number" type="number">
+        </div>
+    </div>
+        <div class="down-block">
+            <input type="button" value="Зарегестрироваться" href="http://localhost:63342/flaskProjectFlask/user.html?_ijt=t7vv87lssjptofbrv1qlus3sr7">
+        </div>
+
 
     </form>
 </body>

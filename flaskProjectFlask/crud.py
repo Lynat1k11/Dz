@@ -29,7 +29,7 @@ def get_all_users() -> list[User]:
 def add_users():
     with session() as connection:
         # Создали объект python. В базе его нет!
-        user = User(username="igor", password="PASSWORD", email="igor@mail.com")
+        user = User(username="ivan", password="PASSWORD", email="ivan@mail.com")
 
         # Добавим в таблицу запись через подключение
         connection.add(user)
